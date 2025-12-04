@@ -12,6 +12,6 @@ export default defineConfig({
     ssl: false,
   },
   dialect: 'postgresql',
-  schema: './src/infra/drizzle/schemas/**/*',
-  out: './src/infra/drizzle/migrations',
+  schema: './src/infra/database/drizzle/schemas/**/*',
+  out: './src/infra/database/drizzle/migrations',
 });
